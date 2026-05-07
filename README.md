@@ -1,5 +1,3 @@
-:
-
 📝 Checklist App
 
 This is a simple full-stack checklist (to-do) app built using React (Vite), Express, and MongoDB.
