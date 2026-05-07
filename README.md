@@ -9,33 +9,23 @@ It allows users to manage tasks easily with basic login functionality.
 
 🚀 Features
 
-Login with a test account
-
-Add new tasks
-
-Edit tasks
-
-Delete tasks
-
-Mark tasks as complete 
-
-Filter tasks (All / Completed / Pending)
-
-Search tasks
-
-Logout
+- Login with a test account
+- Add new tasks
+- Edit tasks
+- Delete tasks
+- Mark tasks as complete 
+- Filter tasks (All / Completed / Pending)
+- Search tasks
+- Logout
 
 
 
 🛠️ Tech Stack
 
-Frontend: React (Vite)
-
-Backend: Node.js + Express
-
-Database: MongoDB 
-
-Deployment: Netlify (Frontend), Render (Backend), MongoDB Atlas (Database)
+- Frontend: React (Vite)
+- Backend: Node.js + Express
+- Database: MongoDB 
+- Deployment: Netlify (Frontend), Render (Backend), MongoDB Atlas (Database)
 
 
 
