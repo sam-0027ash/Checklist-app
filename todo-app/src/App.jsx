@@ -53,7 +53,7 @@ function App() {
 
   //load tasks
   useEffect(() => {
-    fetch("http://localhost:5000/tasks")
+    fetch(" https://checklist-backend-texa.onrender.com")
       .then((res) => res.json())
       .then((data) => {
         setTasks(data);
@@ -65,7 +65,7 @@ function App() {
   const addTask = async () => {
     if (task.trim() === "") return;
 
-    const res = await fetch("http://localhost:5000/tasks", {
+    const res = await fetch(" https://checklist-backend-texa.onrender.com", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -83,7 +83,7 @@ function App() {
 
   //Delete Task
   const deleteTask = async (id) => {
-    await fetch(`http://localhost:5000/tasks/${id}`, {
+    await fetch(` https://checklist-backend-texa.onrender.com/tasks/${id}`, {
       method: "DELETE",
     });
 
@@ -92,7 +92,7 @@ function App() {
 
   //Toggle Task
   const toggleTask = async (taskObj) => {
-    const res = await fetch(`http://localhost:5000/tasks/${taskObj._id}`, {
+    const res = await fetch(` https://checklist-backend-texa.onrender.com/tasks/${taskObj._id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
@@ -112,7 +112,7 @@ function App() {
   const saveEdit = async (id) => {
     if (editText.trim() === "") return;
 
-    const res = await fetch(`http://localhost:5000/tasks/${id}`, {
+    const res = await fetch(` https://checklist-backend-texa.onrender.com/tasks/${id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
