@@ -53,7 +53,7 @@ function App() {
 
   //load tasks
   useEffect(() => {
-    fetch(" https://checklist-backend-texa.onrender.com")
+    fetch(" https://checklist-backend-texa.onrender.com/tasks")
       .then((res) => res.json())
       .then((data) => {
         setTasks(data);
@@ -65,7 +65,7 @@ function App() {
   const addTask = async () => {
     if (task.trim() === "") return;
 
-    const res = await fetch(" https://checklist-backend-texa.onrender.com", {
+    const res = await fetch(" https://checklist-backend-texa.onrender.com/tasks", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
