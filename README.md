@@ -41,6 +41,8 @@ Frontend: https://checklist2004.netlify.app/
 
 Backend: https://checklist-backend-texa.onrender.com/tasks
 
+[The Backend will be a little slow to load, kindly be patient. The Render takes time to start the backend again]
+
 ---
 
 👨‍💻 About
